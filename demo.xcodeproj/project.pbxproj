@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0815DD0118ECF40D00AE12CB /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0815DD0018ECF40D00AE12CB /* MyParticle.sks */; };
 		08573BFE18EA68480099CCC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08573BFD18EA68480099CCC2 /* Foundation.framework */; };
 		08573C0018EA68480099CCC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08573BFF18EA68480099CCC2 /* CoreGraphics.framework */; };
 		08573C0218EA68480099CCC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08573C0118EA68480099CCC2 /* UIKit.framework */; };
@@ -24,6 +25,11 @@
 		08573C2618EA68480099CCC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08573C0118EA68480099CCC2 /* UIKit.framework */; };
 		08573C2E18EA68480099CCC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08573C2C18EA68480099CCC2 /* InfoPlist.strings */; };
 		08573C3018EA68480099CCC2 /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08573C2F18EA68480099CCC2 /* demoTests.m */; };
+		08573C3A18EA7E750099CCC2 /* explosion.gif in Resources */ = {isa = PBXBuildFile; fileRef = 08573C3918EA7E750099CCC2 /* explosion.gif */; };
+		08573C3C18EA7ECE0099CCC2 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08573C3B18EA7ECE0099CCC2 /* explosion.wav */; };
+		08573C3F18EA7FC20099CCC2 /* flyingPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 08573C3E18EA7FC20099CCC2 /* flyingPlane.m */; };
+		08573C4118EA807B0099CCC2 /* dragonFire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 08573C4018EA807B0099CCC2 /* dragonFire.sks */; };
+		08573C4318EA829E0099CCC2 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 08573C4218EA829E0099CCC2 /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0815DD0018ECF40D00AE12CB /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
 		08573BFA18EA68480099CCC2 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08573BFD18EA68480099CCC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		08573BFF18EA68480099CCC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +67,12 @@
 		08573C2B18EA68480099CCC2 /* demoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "demoTests-Info.plist"; sourceTree = "<group>"; };
 		08573C2D18EA68480099CCC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08573C2F18EA68480099CCC2 /* demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoTests.m; sourceTree = "<group>"; };
+		08573C3918EA7E750099CCC2 /* explosion.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = explosion.gif; sourceTree = "<group>"; };
+		08573C3B18EA7ECE0099CCC2 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		08573C3D18EA7FC20099CCC2 /* flyingPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flyingPlane.h; sourceTree = "<group>"; };
+		08573C3E18EA7FC20099CCC2 /* flyingPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flyingPlane.m; sourceTree = "<group>"; };
+		08573C4018EA807B0099CCC2 /* dragonFire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = dragonFire.sks; sourceTree = "<group>"; };
+		08573C4218EA829E0099CCC2 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +141,14 @@
 				08573C1518EA68480099CCC2 /* ViewController.m */,
 				08573C1718EA68480099CCC2 /* MyScene.h */,
 				08573C1818EA68480099CCC2 /* MyScene.m */,
+				0815DD0018ECF40D00AE12CB /* MyParticle.sks */,
+				08573C3B18EA7ECE0099CCC2 /* explosion.wav */,
+				08573C3918EA7E750099CCC2 /* explosion.gif */,
 				08573C1A18EA68480099CCC2 /* Spaceship.png */,
+				08573C3D18EA7FC20099CCC2 /* flyingPlane.h */,
+				08573C3E18EA7FC20099CCC2 /* flyingPlane.m */,
+				08573C4018EA807B0099CCC2 /* dragonFire.sks */,
+				08573C4218EA829E0099CCC2 /* spark.png */,
 				08573C1C18EA68480099CCC2 /* Images.xcassets */,
 				08573C0618EA68480099CCC2 /* Supporting Files */,
 			);
@@ -240,9 +260,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08573C4118EA807B0099CCC2 /* dragonFire.sks in Resources */,
+				08573C3C18EA7ECE0099CCC2 /* explosion.wav in Resources */,
 				08573C0A18EA68480099CCC2 /* InfoPlist.strings in Resources */,
 				08573C1D18EA68480099CCC2 /* Images.xcassets in Resources */,
+				0815DD0118ECF40D00AE12CB /* MyParticle.sks in Resources */,
 				08573C1B18EA68480099CCC2 /* Spaceship.png in Resources */,
+				08573C4318EA829E0099CCC2 /* spark.png in Resources */,
+				08573C3A18EA7E750099CCC2 /* explosion.gif in Resources */,
 				08573C1318EA68480099CCC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08573C3F18EA7FC20099CCC2 /* flyingPlane.m in Sources */,
 				08573C1918EA68480099CCC2 /* MyScene.m in Sources */,
 				08573C1618EA68480099CCC2 /* ViewController.m in Sources */,
 				08573C1018EA68480099CCC2 /* AppDelegate.m in Sources */,
@@ -472,6 +498,7 @@
 				08573C3518EA68480099CCC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08573C3618EA68480099CCC2 /* Build configuration list for PBXNativeTarget "demoTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +507,7 @@
 				08573C3818EA68480099CCC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
